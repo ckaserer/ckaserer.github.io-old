@@ -2,7 +2,7 @@
 layout: post
 title:  "Uneasy no settle whence nature narrow in afraid"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-date:   2016-03-02
+date:   2020-03-02
 banner_preview: blog2.jpg
 banner_image: blog-banner.jpg
 category: Design

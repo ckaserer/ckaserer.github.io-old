@@ -2,7 +2,7 @@
 layout: post
 title:  "BEAUTY OF NATURE"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-date: 2019-01-23
+date: 2020-01-23
 banner_preview: blog1.jpg
 banner_image: blog-banner.jpg
 category: Passion

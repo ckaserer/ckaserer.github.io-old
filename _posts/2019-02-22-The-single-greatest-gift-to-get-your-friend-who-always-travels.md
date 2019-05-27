@@ -2,7 +2,7 @@
 layout: post
 title:  "The single greatest gift to get your friend who always travels"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-date:   2019-01-20
+date:   2020-01-20
 banner_preview: blog2.jpg
 banner_image: blog-banner.jpg
 category: Travel
