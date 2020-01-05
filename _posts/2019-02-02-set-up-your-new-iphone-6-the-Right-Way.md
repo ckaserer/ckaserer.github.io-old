@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Set Up Your New iPhone 6 the Right Way"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-date:   2020-03-02
+date:   2022-03-02
 banner_preview: blog1.jpg
 banner_image: blog-banner.jpg
 category: Passion

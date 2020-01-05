@@ -2,7 +2,7 @@
 layout: post
 title:  "The Advantages & Disadvantages of Working from Home"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-date:   2020-01-01
+date:   2022-01-01
 banner_preview: blog2.jpg
 banner_image: blog-banner.jpg
 category: Travel
