@@ -12,7 +12,7 @@ title: "Clemens Kaserer"
 description: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://ckaserer.github.io"
+url: "https://ckaserer.dev"
 
 # Author information - author info at the bottom of the post
 author_name: "Clemens Kaserer"
@@ -22,27 +22,4 @@ linkedin_username: "ckaserer"
 github_username: "ckaserer"
 dockerhub_username: "ckaserer"
 ansible_username: "ckaserer"
-
-# ##################################################
-# Settings for builing master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV['GIT_NAME'] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to "source" for USERNAME.github.io
-# or "master" otherwise
-username: ckaserer
-repo: ckaserer.github.io
-branch: source
-destination: ../master/
-
-exclude:
-  - .travis.yml
-  - index-*.html
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  #- README.md
+stackoverflow_username: "12153397"

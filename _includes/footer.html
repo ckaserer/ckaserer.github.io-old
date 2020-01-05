@@ -16,6 +16,12 @@
 					{% if site.dockerhub_username %}
 						<li><a href="https://hub.docker.com/u/{{ site.dockerhub_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-docker"></i></a></li>
 					{% endif %}
+					{% if site.ansible_username %}
+						<li><a href="https://galaxy.ansible.com/{{ site.ansible_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-redhat"></i></a></li>
+					{% endif %}
+					{% if site.stackoverflow_username %}
+						<li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}" class="wow fadeInUp" data-wow-delay=".5s"><i class="fab fa-stack-overflow"></i></a></li>
+					{% endif %}
 				</ul>
 
 				<p class="copyright">
