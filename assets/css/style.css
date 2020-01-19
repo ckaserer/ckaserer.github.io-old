@@ -383,7 +383,17 @@ textarea.form-control {
 .module {
 	padding: 120px 0 100px;
 }
+.fullscreen-module {
+	padding: 00px 0 100px;
+}
 
+.fullscreen {
+	min-height: 95vh;
+}
+
+.with-footer {
+	min-height: 87.2vh;
+}
 .module-gray {
 	background: #f5f5f5;
 }
@@ -723,7 +733,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 
-.is-sticky .header {
+/*.is-sticky*/ .header {
 	box-shadow: 0 6px 30px rgba(0,0,0,0.05);
 }
 
@@ -1073,10 +1083,11 @@ figure {
 }
 
 .side-image-text {
-	/* background: #fff; */
-	background: #f5f5f5;
+	background: #fff;
+	/* background: #f5f5f5; */
 	padding: 100px 60px 50px;
 	min-height: 600px;
+	min-height: 95vh;
 }
 
 .iconboxleft {
@@ -1422,7 +1433,8 @@ figure {
 
 #footer {
 	text-align: center;
-	padding: 40px 0;
+	/* padding: 40px 0; */
+	padding: 10px 0;
 	color: #FFF;
 	background: #333
 }
@@ -1434,7 +1446,7 @@ figure {
 .social-links {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 .social-links li {
