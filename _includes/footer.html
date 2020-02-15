@@ -10,17 +10,26 @@
 					{% if site.linkedin_username %}
 						<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="wow fadeInUp" data-wow-delay=".1s"><i class="fab fa-linkedin-in"></i></a></li>
 					{% endif %}
+					{% if site.twitter_username %}
+						<li><a href="https://twitter.com/{{ site.twitter_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-twitter"></i></a></li>
+					{% endif %}
 					{% if site.github_username %}
-						<li><a href="http://github.com/{{ site.github_username }}" class="wow fadeInUp" data-wow-delay=".2s"><i class="fab fa-github"></i></a></li>
+						<li><a href="http://github.com/{{ site.github_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-github"></i></a></li>
 					{% endif %}
 					{% if site.dockerhub_username %}
-						<li><a href="https://hub.docker.com/u/{{ site.dockerhub_username }}" class="wow fadeInUp" data-wow-delay=".3s"><i class="fab fa-docker"></i></a></li>
+						<li><a href="https://hub.docker.com/u/{{ site.dockerhub_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-docker"></i></a></li>
 					{% endif %}
 					{% if site.ansible_username %}
-						<li><a href="https://galaxy.ansible.com/{{ site.ansible_username }}" class="wow fadeInUp" data-wow-delay=".4s"><i class="fab fa-redhat"></i></a></li>
+						<li><a href="https://galaxy.ansible.com/{{ site.ansible_username }}" class="wow fadeInUp" data-wow-delay=".5s"><i class="fab fa-redhat"></i></a></li>
 					{% endif %}
 					{% if site.stackoverflow_username %}
-						<li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}" class="wow fadeInUp" data-wow-delay=".5s"><i class="fab fa-stack-overflow"></i></a></li>
+						<li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_username }}" class="wow fadeInUp" data-wow-delay=".6s"><i class="fab fa-stack-overflow"></i></a></li>
+					{% endif %}
+					{% if site.devto_username %}
+						<li><a href="https://dev.to/{{ site.devto_username }}" class="wow fadeInUp" data-wow-delay=".7s"><i class="fab fa-dev"></i></a></li>
+					{% endif %}
+					{% if site.medium_username %}
+						<li><a href="https://medium.com/@{{ site.medium_username }}" class="wow fadeInUp" data-wow-delay=".8s"><i class="fab fa-medium"></i></a></li>
 					{% endif %}
 				</ul>
 
