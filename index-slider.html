@@ -29,15 +29,15 @@ layout: default
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="assets/images/home2.jpg" alt="Los Angeles">
+						<img src="/assets/images/home2.jpg" alt="Los Angeles">
 					</div>
 
 					<div class="item">
-						<img src="assets/images/home1.jpg" alt="Chicago">
+						<img src="/assets/images/home1.jpg" alt="Chicago">
 					</div>
 
 					<div class="item">
-						<img src="assets/images/home3.jpg" alt="New York">
+						<img src="/assets/images/home3.jpg" alt="New York">
 					</div>
 				</div>
 
@@ -137,9 +137,9 @@ layout: default
 
 			<li class="list-item" data-groups="all slideshow">
 				<figure>
-					<img src="assets/images/p1-1.jpg" alt="p1">
+					<img src="/assets/images/p1-1.jpg" alt="p1">
 					<figcaption>
-						<a href="assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Slideshow</div>
@@ -150,9 +150,9 @@ layout: default
 
 			<li class="list-item" data-groups="all video">
 				<figure>
-					<img src="assets/images/p2-2.jpg" alt="p2">
+					<img src="/assets/images/p2-2.jpg" alt="p2">
 					<figcaption>
-						<a href="assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Video</div>
@@ -163,9 +163,9 @@ layout: default
 
 			<li class="list-item" data-groups="all image">
 				<figure>
-					<img src="assets/images/p3-3.jpg" alt="p3">
+					<img src="/assets/images/p3-3.jpg" alt="p3">
 					<figcaption>
-						<a href="assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Image</div>
@@ -176,9 +176,9 @@ layout: default
 
 			<li class="list-item" data-groups="all slideshow">
 				<figure>
-					<img src="assets/images/p4-4.jpg" alt="p4">
+					<img src="/assets/images/p4-4.jpg" alt="p4">
 					<figcaption>
-						<a href="assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Slideshow</div>
@@ -189,9 +189,9 @@ layout: default
 
 			<li class="list-item" data-groups="all video">
 				<figure>
-					<img src="assets/images/p5-5.jpg" alt="p5">
+					<img src="/assets/images/p5-5.jpg" alt="p5">
 					<figcaption>
-						<a href="assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Video</div>
@@ -202,9 +202,9 @@ layout: default
 
 			<li class="list-item" data-groups="all image">
 				<figure>
-					<img src="assets/images/p6-6.jpg" alt="p6">
+					<img src="/assets/images/p6-6.jpg" alt="p6">
 					<figcaption>
-						<a href="assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
+						<a href="/assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
 						<div class="caption-inner">
 							<h3 class="portfolio-item-title">Some work one</h3>
 							<div class="portfolio-item-desc">Image</div>
@@ -499,7 +499,7 @@ layout: default
 						<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
 							<div class="blogList-img">
 								{% if post.banner_image %}
-									<img src="{{ "assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+									<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
 								{% endif %}
 								{% if post.category %}
 								<span>{{post.category}}</span>

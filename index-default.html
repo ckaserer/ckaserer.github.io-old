@@ -458,7 +458,7 @@ layout: default
 						<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
 							<div class="blogList-img">
 								{% if post.banner_image %}
-									<img src="{{ "assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+									<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
 								{% endif %}
 								{% if post.category %}
 								<span>{{post.category}}</span>

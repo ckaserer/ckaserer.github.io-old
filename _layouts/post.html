@@ -10,7 +10,7 @@ layout: default
 	<div class="container">
 		<div class="blog-detail-banner wow fadeIn">
 			{% if page.banner_image %}
-				<img src="/assets/images/{{ page.banner_image }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+				<img src="{{ site.url }}/assets/images/{{ page.banner_image }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% endif %}
 		</div>
 		<div class="blog-detail-contents wow fadeInUp">
@@ -18,7 +18,7 @@ layout: default
 			<div class="blog-detail-about clearfix">
 				<div class="media pull-left">
 					<div class="media-left">
-						<img src="/assets/images/avatar.jpg" class="media-object" alt="avatar">
+						<img src="{{ site.url }}/assets/images/avatar.jpg" class="media-object" alt="avatar">
 					</div>
 					<div class="media-body">
 						<h4 class="media-heading">{{site.author_name}}</h4>
