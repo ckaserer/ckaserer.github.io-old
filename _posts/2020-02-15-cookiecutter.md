@@ -31,14 +31,14 @@ A command-line utility that creates projects from **cookiecutters** (project tem
 Wonderful, now let's use cookiecutter from a container instead of installing it on your machine.
 
 ### Base image
-The image is based on [python:3](https://hub.docker.com/_/python) and can be build for any architecture supported by python:3.
+The image is based on [python:3](https://hub.docker.com/_/python) and can be built for any architecture supported by python:3.
 
 ### Flavors
 The cookiecutter container image is available in 2 flavors
 * **latest** <br>
   latest is build daily via travis and if the base images changes
 * **version** <br>
-  during each travis build the current cookiecutter version is validated and the image is tagged accordingly starting with `1.7.0`. More versions can be found on [hub.docker.com/r/ckaserer/cookiecutter](https://hub.docker.com/r/ckaserer/cookiecutter).
+  during each travis build the current cookiecutter version is validated and the image is tagged accordingly starting with `1.7.0`. More versions can be found at [hub.docker.com/r/ckaserer/cookiecutter](https://hub.docker.com/r/ckaserer/cookiecutter).
 
 ### Requirements
 * Bash
