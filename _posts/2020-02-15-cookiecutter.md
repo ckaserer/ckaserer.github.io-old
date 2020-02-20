@@ -5,16 +5,16 @@ description: "Containerized command-line utility that creates projects from cook
 date:   2020-02-15
 banner_preview: 2020_02_15_cookiecutter/preview.png
 banner_image: 2020_02_15_cookiecutter/banner.png
-category: Docker
-tags: [docker, cookiecutter]
+category: docker
+tags: [container, cookiecutter]
 ---
 
 <a href="https://travis-ci.com/ckaserer/cookiecutter">
     <img src="https://travis-ci.com/ckaserer/cookiecutter.svg?branch=master" style="height: auto !important; width: auto !important; "/>
 </a>
-<img src="https://img.shields.io/docker/pulls/ckaserer/cookiecutter" style="height: auto !important; width: auto !important; "/>
-<img src="https://img.shields.io/github/license/ckaserer/cookiecutter" style="height: auto !important; width: auto !important; "/>
+<img src="https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg" style="height: auto !important; width: auto !important; "/>
 <img src="https://img.shields.io/maintenance/yes/2020" style="height: auto !important; width: auto !important; "/>
+<img src="https://img.shields.io/docker/pulls/ckaserer/cookiecutter" style="height: auto !important; width: auto !important; "/>
 
 ## What is cookiecutter?!
 
