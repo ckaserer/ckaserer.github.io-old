@@ -31,7 +31,7 @@ If you want to know more check out the associated repository at [github.com/ckas
 
 ---
 
-## Cookiecutter for Container Images
+## Cookiecutter for container images
 
 The goal of today is to standardize and automate your container image build process. From folder structure, to CICD, to publishing to a container registry, to build notifications via slack with cookiecutter templates.
 
