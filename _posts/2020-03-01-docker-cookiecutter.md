@@ -31,7 +31,7 @@ If you want to know more check out the associated repository at [github.com/ckas
 
 ---
 
-## Cookiecutter for Docker Images
+## Cookiecutter for Container Images
 
 The goal of today is to standardize and automate your container image build process. From folder structure, to CICD, to publishing to a container registry, to build notifications via slack with cookiecutter templates.
 
@@ -40,6 +40,8 @@ The goal of today is to standardize and automate your container image build proc
 * travis
 * container registry
 * slack
+
+### Getting started
 
 To process the `docker-cookiecutter` template execute  
 
@@ -68,7 +70,7 @@ docker-{{cookiecutter.image_name}}
 ```
 
 Next we need to add our registry credentials to be able to push our images to a container registry and our slack integration for build notifications.
-You can find the how to for those steps in the README.md of your processed docker-cookiecutter template or directly via this [link](https://github.com/ckaserer/docker-travis-cli).
+You can find a how-to for those steps in the `README.md` of your processed docker-cookiecutter template directory or directly via this [link](https://github.com/ckaserer/docker-travis-cli).
 
 ---
 
