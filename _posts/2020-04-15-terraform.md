@@ -118,6 +118,8 @@ That's it. Thanks for reading!
 
 ---
 
+## FAQ
+
 **Q: Wait!** How much does the AWS infrastructure cost you?! Must be a fortune!
 
 
