@@ -120,7 +120,13 @@ That's it. Thanks for reading!
 
 **Q: Wait!** How much does the AWS infrastructure cost you?! Must be a fortune!
 
-**A:** Glad you asked. Let's break it down. A rather beefy 16GB, 4vCPU VM in AWS costs 0.192 Dollar per hour (15. Apr 2020). For a single day workshop we would spin the VMs up the night before in order to have time to react if an issues occurs. This would result in 24h of uptime per VM totaling 0.192$ * 24h = 4.608$ per participant. Less than 5$ per participant for a frictionless workshop experience that fits our strict criteria is a bargain if you ask us. Or ask our participants, they will tell how frictionless their expierence was.
+
+**A:** Glad you asked. Let's break it down. A rather beefy 16GB, 4vCPU VM in AWS costs 0.192 Dollar per hour (15. Apr 2020). 
+For a single day workshop we would spin the VMs up the night before in order to have time to react if an issues occurs. 
+
+This would result in 24h of uptime per VM totaling 0.192$ * 24h = 4.608$ per participant. 
+
+Less than 5$ per participant for a frictionless workshop experience that fits our strict criteria is a bargain if you ask us. Or ask our participants, they will tell how frictionless their expierence was.
 
 ---
 
