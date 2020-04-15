@@ -126,6 +126,6 @@ That's it. Thanks for reading!
 
 **Source**
 
-* https://www.packer.io/
-* https://www.vagrantup.com/
-* https://www.terraform.io/
+* [https://www.packer.io](https://www.packer.io)
+* [https://www.vagrantup.com](https://www.vagrantup.com)
+* [https://www.terraform.io](https://www.terraform.io)
