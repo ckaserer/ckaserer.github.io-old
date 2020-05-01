@@ -11,6 +11,10 @@ title: "ckaserer"
 # A description of your site for social meta tag, search engines, and feed.xml
 description: ""
 
+# Jekyll plugins
+plugins:
+    - jekyll-redirect-from
+
 # The base hostname & protocol of your site for where absolute urls are needed
 url: "https://ckaserer.dev"
 
@@ -22,7 +26,7 @@ linkedin_username: "ckaserer"
 github_username: "ckaserer"
 dockerhub_username: "ckaserer"
 ansible_username: "ckaserer"
-devto_username: "ckaserer"
-medium_username: "ckaserer"
-twitter_username: "ckaserer"
+# devto_username: "ckaserer"
+# medium_username: "ckaserer"
+# twitter_username: "ckaserer"
 stackoverflow_username: "12153397"
