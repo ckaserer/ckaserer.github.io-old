@@ -7,3 +7,9 @@ function ckaserer-serve () {
 }
 readonly -f ckaserer-serve
 [ "$?" -eq "0" ] || return $?
+
+function ckaserer-dep () {
+  (cd ${CKASERER_GITHUB_IO_HOME} && bundle install) 
+}
+readonly -f ckaserer-dep
+[ "$?" -eq "0" ] || return $?
